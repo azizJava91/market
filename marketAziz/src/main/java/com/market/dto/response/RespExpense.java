@@ -1,0 +1,23 @@
+package com.market.dto.response;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Date;
+
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class RespExpense {
+
+    private Long expenceId;
+    private String type;
+    private Double amount;
+    private Date date;
+
+}
